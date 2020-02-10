@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/toolbar"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create a new Account"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username_signup"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext_rounded"
+            android:padding="10dp"
+            android:hint="Username"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender_signup"
+            android:background="@drawable/edittext_rounded"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:hint="male/female"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded"
+            android:id="@+id/city_signup"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="City"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email_signup"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_rounded"
+            android:id="@+id/password_signup"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Password"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:id="@+id/btn_register"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="50dp"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/btn_cancel"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

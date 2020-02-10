@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_Info">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/toolbar"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/UpdateImageView"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username_update"
+            android:padding="10dp"
+            android:background="@drawable/edittext_rounded"
+            android:layout_marginTop="40dp"
+            android:hint="Username"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender_update"
+            android:padding="10dp"
+            android:background="@drawable/edittext_rounded"
+            android:layout_marginTop="40dp"
+            android:hint="MALE/FEMALE" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/city_update"
+            android:padding="10dp"
+            android:background="@drawable/edittext_rounded"
+            android:layout_marginTop="40dp"
+            android:hint="City"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Update"
+            android:layout_marginTop="40dp"
+            android:text="Update"
+            android:background="@drawable/rounded_button"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+</RelativeLayout>
